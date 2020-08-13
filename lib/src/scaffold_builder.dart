@@ -33,9 +33,7 @@ final ScaffoldBuilder defaultScaffoldBuilder =
     final theme = CupertinoTheme.of(context);
 
     return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-        middle: title,
-      ),
+      navigationBar: null,
       child: Theme(
         data: themeFromCupertino(theme),
         child: SafeArea(

@@ -47,10 +47,5 @@ final ScaffoldBuilder defaultScaffoldBuilder =
     );
   }
 
-  return Scaffold(
-    appBar: AppBar(
-      title: title,
-    ),
-    body: child,
-  );
+  return child;
 };
